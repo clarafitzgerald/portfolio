@@ -1,8 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: "Raleway", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./images/geom-background.jpg");
+  height: 305%;
+  width: 100vw;
+  position: absolute;
+  overflow-x: hidden;
 }
 
 code {

@@ -1,0 +1,68 @@
+header {
+  .title {
+    // color: rgb(249, 249, 249);
+    // margin: 32vh auto 20vh auto;
+    // border: 2px solid rgb(80 * 0.8, 101 * 0.8, 110 * 0.8);
+    // width: 60vw;
+    // background-color: rgba(80 * 0.8, 101 * 0.8, 110 * 0.8, 0.85);
+
+    color: rgb(61, 72, 73);
+    margin: 32vh auto 20vh auto;
+    border: 2px solid rgb(80 * 0.8, 101 * 0.8, 110 * 0.8);
+    width: 60vw;
+    background-color: rgba(249, 249, 249, 1);
+
+    text-align: center;
+    font-size: 1.5em;
+    padding: 2vw;
+    .name {
+      padding: 1vw;
+      font-size: 1.5em;
+    }
+    .jobTitle {
+      padding: 1vw;
+    }
+    .contact {
+      padding-top: 0.5vw;
+      a {
+        font-size: 0.9em;
+        padding: 0 1vw;
+      }
+    }
+  }
+  .arrow {
+    display: block;
+    text-align: center;
+    margin: 2vw;
+    font-size: 2.5em;
+    color: rgb(80, 101, 110);
+    &:hover {
+      color: rgb(80 * 0.7, 101 * 0.7, 110 * 0.7);
+      cursor: pointer;
+    }
+  }
+}
+
+.projects {
+  display: block;
+
+  color: rgb(61, 72, 73);
+  background-color: rgb(249, 249, 249);
+  .projectsTitle {
+    text-align: center;
+    padding-top: 2vw;
+    font-size: 1.5em;
+  }
+  div {
+    margin: 2vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    p {
+      width: 30vw;
+      height: 60vh;
+      border: 2px solid rgb(61, 72, 73);
+    }
+  }
+}
