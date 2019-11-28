@@ -14,7 +14,7 @@ class App extends Component {
     return (
       <>
         <header>
-          <section className={styles.title}>
+          <section className={styles.titles}>
             <p className={styles.name}>CLARA FITZGERALD</p>
             <p className={styles.jobTitle}>- WEB DEVELOPER -</p>
             <p className={styles.contact}>
@@ -38,7 +38,7 @@ class App extends Component {
         </header>
         <Navbar />
         <section className={styles.projects}>
-          <p className={styles.projectsTitle}>MY PROJECTS</p>
+          <p className={styles.title}>MY PROJECTS</p>
           <div>
             <p>Hall of Mirrors</p>
             <p>Calendar</p>
@@ -50,6 +50,33 @@ class App extends Component {
             <p>Hostile Aliens</p>
             <p>Blog Brief</p>
           </div>
+        </section>
+        <section className={styles.aboutMe}>
+          <p className={styles.title}>ABOUT ME</p>
+          <p>I am Clara</p>
+        </section>
+
+        <section className={styles.contact}>
+          <section className={styles.titles}>
+            <p className={styles.description}>GET IN TOUCH</p>
+            <p className={styles.links}>
+              <a>
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+              <a>
+                <FontAwesomeIcon icon={faEnvelope} />
+              </a>
+              <a>
+                <FontAwesomeIcon icon={faLinkedinIn} />
+              </a>
+              <a>
+                <FontAwesomeIcon icon={faDownload} />
+              </a>
+            </p>
+          </section>
+          <a href="#navigation" className={styles.arrow}>
+            <FontAwesomeIcon icon={faChevronDown} />
+          </a>
         </section>
       </>
     );
