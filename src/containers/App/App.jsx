@@ -7,6 +7,8 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import Navbar from "../../components/Navbar/Navbar";
+import Project from "../../components/Project/Project";
+import hallOfMirrors from "../../images/hall-of-mirrors.jpg";
 
 class App extends Component {
   state = {};
@@ -40,7 +42,9 @@ class App extends Component {
         <section className={styles.projects}>
           <p className={styles.title}>MY PROJECTS</p>
           <div>
-            <p>Hall of Mirrors</p>
+            <div>
+              <Project image={hallOfMirrors} />
+            </div>
             <p>Calendar</p>
             <p>Tug of War</p>
             <p>To Do List</p>

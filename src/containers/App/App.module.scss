@@ -45,9 +45,8 @@ header {
 
 .projects {
   display: block;
-
   color: rgb(61, 72, 73);
-  background-color: rgb(249, 249, 249);
+  background: linear-gradient(rgba(249, 249, 249, 1), rgba(249, 249, 249, 0));
   .title {
     text-align: center;
     padding-top: 2vw;
@@ -59,9 +58,9 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    p {
+    div {
       width: 30vw;
-      height: 60vh;
+      // height: 60vh;
       border: 2px solid rgb(61, 72, 73);
     }
   }
