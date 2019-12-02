@@ -1,6 +1,18 @@
 .image {
-  width: 30vw;
+  width: 36vw;
   height: auto;
-  padding-right: 0.5vw;
-  padding-left: 0.1vw;
+}
+.project {
+  background-color: rgb(249, 249, 249);
+  a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+  }
+}
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.1em;
+  padding: 4px;
 }

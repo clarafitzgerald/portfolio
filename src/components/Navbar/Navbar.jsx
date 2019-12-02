@@ -6,9 +6,9 @@ class Navbar extends Component {
   render() {
     return (
       <nav id="navigation" className={styles.navLinks}>
-        <p>PROJECTS</p>
-        <p>ABOUT</p>
-        <p>CONTACT</p>
+        <a href="#projects">PROJECTS</a>
+        <a href="#about">ABOUT</a>
+        <a href="#contact">CONTACT</a>
       </nav>
     );
   }
