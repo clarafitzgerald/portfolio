@@ -3,12 +3,12 @@
   flex-direction: row;
   justify-content: space-evenly;
   background-color: rgba(61, 72, 73, 0.7);
-  position: sticky;
+  position: sticky !important;
   top: 0;
   p,
   a {
     color: rgb(249, 249, 249);
-    padding: 2vw 200px;
+    padding: 2vw 10vw;
     text-decoration: none;
     &:hover {
       background-color: rgb(249, 249, 249);

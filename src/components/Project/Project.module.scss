@@ -1,13 +1,20 @@
 .image {
-  width: 36vw;
+  width: 512px;
   height: auto;
 }
 .project {
   background-color: rgb(249, 249, 249);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   a {
     display: block;
     text-align: center;
     text-decoration: none;
+  }
+  p,
+  i {
+    margin: 16px 8px;
   }
 }
 .title {
@@ -15,4 +22,17 @@
   text-align: center;
   font-size: 1.1em;
   padding: 4px;
+}
+
+.languages {
+  text-align: center;
+  i {
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 578px) {
+  .image {
+    width: 100%;
+  }
 }

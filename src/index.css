@@ -19,7 +19,6 @@ body {
   height: 305%;
   width: 100vw;
   position: absolute;
-  overflow-x: hidden;
 }
 
 code {

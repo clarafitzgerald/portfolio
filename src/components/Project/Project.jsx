@@ -15,8 +15,14 @@ class Project extends Component {
         </a>
 
         <p className={styles.title}>{this.props.title}</p>
-        {/* <p>{this.props.description}</p> */}
+        <section className={styles.languages}>
+          {this.props.languages.map((language, index) => (
+            <i key={index}>{language}</i>
+          ))}
+        </section>
+        <p>{this.props.description}</p>
         <a
+          className={styles.viewCode}
           href={this.props.githubLink}
           target="_blank"
           rel="noopener noreferrer"
